@@ -1,4 +1,4 @@
-const API = 'https://salty-beyond-87863.herokuapp.com/api/v1/products?offset=50&results=48'
+const API = 'https://salty-beyond-87863.herokuapp.com/api/v1/products'
 const getData = async (id) => {
     const apiURL = id ? `${API}/${id}` : API;
     try {

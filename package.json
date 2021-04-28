@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
+    "copy-webpack-plugin": "^6.2.1",
     "sockjs": "^0.3.21"
   }
 }

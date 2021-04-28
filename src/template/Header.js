@@ -8,11 +8,9 @@ const Header = () => {
                 </a>
             </h1>
         </div>
-        <div id="darkmode" style="float:right">
-            <a href="">
-                darkmode
-            </a>
-        </div>
+        <ul>
+            <li id="darkmode" style="float:right">darkmode</li>
+        </ul>
     </div>
     `;
     return view;

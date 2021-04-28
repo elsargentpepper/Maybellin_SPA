@@ -1,5 +1,5 @@
 import getHash from '../utils/getHash';
-import getData from '../utils/getData';
+import getData from '../utils/getDataSingle';
 
 const SingleProduct = async () => {
     const id = getHash();
@@ -11,12 +11,19 @@ const SingleProduct = async () => {
                 <h2>${product.data.name}</h2>
             </article>
             <article class="Product-card">
-                <h3>Brand: ${product.data.brand}</h3>
-                <h3>Price: $${product.data.price}</h3>
-                <h3>Type: ${product.data.product_type} </h3>
-                <h3>Description: ${product.data.description}</h3>
+                <br>
+                <h3>Brand: <span>${product.data.brand}</span> </h3>
+                <br>
+                <h3>Price: <span>$${product.data.price}</span> </h3>
+                <br>
+                <h3>Type: <span>${product.data.product_type}</span></h3>
+                <br>
+                <h3>Description: <span>${product.data.description}</span></h3>
+                <br>
+                <h3>Rating <span>${product.data.rating}</span></h3>
+                <br>
                 <div class="boton">
-                    <a hfer="${product.data.product_link}k">
+                    <a hfer="${product.data.product_link}">
                         BUY
                     </a>
                 </div>
