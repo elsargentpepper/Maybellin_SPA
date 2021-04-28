@@ -4,11 +4,12 @@
   "description": "Java Script Single Page Application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open -mode development"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elsargentpepper/Maybellin_SPA.git"
+    "url": "git@github.com:elsargentpepper/Maybellin_SPA.git"
   },
   "keywords": [
     "javascript"
