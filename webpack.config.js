@@ -29,5 +29,11 @@ module.exports = {
                 filename: './index.html',
             }
         ])
-    ]
+    ],
+    devServer: {
+        contentBase: path.join(__dirname, 'dist'),
+        compress: true,
+        historyApiFallback: true,
+        port: 8000
+    }
 }
