@@ -1,0 +1,30 @@
+{
+  "name": "maybellin_spa",
+  "version": "1.2.0",
+  "description": "Java Script Single Page Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elsargentpepper/Maybellin_SPA.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Elsa Portilla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elsargentpepper/Maybellin_SPA/issues"
+  },
+  "homepage": "https://github.com/elsargentpepper/Maybellin_SPA#readme",
+  "devDependencies": {
+    "@babel/core": "7.7.5",
+    "babel-loader": "8.0.6",
+    "html-webpack-plugin": "3.2.0",
+    "webpack": "4.41.2",
+    "webpack-cli": "3.3.10",
+    "webpack-dev-server": "3.9.0"
+  }
+}
