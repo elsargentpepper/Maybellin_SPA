@@ -5,8 +5,8 @@ const Home = () => {
             <a href="#/1/">
                 <img class="img_product" src="image" alt="name"/>
                 <h2>Product:</h2>
-                <spam>Brand:</spam>
-                <spam>Price: $</spam>
+                <h3>Brand:</h3>
+                <h3>Price: $</h3>
             </a>
         </article>
     </div>

@@ -2,7 +2,7 @@ const Header = () => {
     const view = `
     <div class="Header-main">
         <div class="Header-logo">
-            <h1>
+            <h1 class="title">
                 <a href="/">
                     Maybelline New York |
                 </a>
