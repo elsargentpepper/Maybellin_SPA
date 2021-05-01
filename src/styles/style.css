@@ -6,7 +6,7 @@
     padding: 0;
 }
 :root {
-    --blanco: rgba(250,250,250, 0.9);
+    --blanco: white;
     --negro: dimgrey;
     --rosa: #E54266;
     --rojo: #B3344F;
@@ -61,6 +61,7 @@ header{
     width: 100%;
     background-color: var(--blanco);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    min-width: 768px;
 }
 li{
     float: left;
@@ -75,8 +76,7 @@ li a{
     width: 75%;
     margin: auto;
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    justify-content: left;
+    grid-template-columns: auto auto auto auto auto;
 } 
 @media only screen and (max-width: 768px) {
     .Products{
@@ -96,22 +96,17 @@ li a{
     align-items: center;
     background-color: var(--blancoalpha);
     color: var(--negro);
-    opacity: 75%;
 }
 .Product-item:hover{
     background-color: rgb(229,66,102,0.1);
     color: var(--rojo);
-    opacity: 100%;
 }
 .img_product{
     width: 15rem;
     height: 15rem;
-    border-radius: 100%;
+    border-radius: 50%;
     object-fit:cover;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.img_product:hover{
-    opacity: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
 }
 a{
     color: var(--negro);
@@ -119,9 +114,6 @@ a{
 }
 .hero-title{
     text-align: center;
-}
-.hero-title a:hover{
-    color: var(--blanco);
 }
 .text{
     font-weight: lighter;
@@ -180,15 +172,52 @@ a{
 .Product-info{
     margin: 3rem 0;
 }
+button{
+    border: none;
+    width: 4rem;
+    height: 4rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+    font-family: 'Antonio', sans-serif;
+    border-radius: 1rem;
+    color: var(--negro);
+    background-color: var(--blanco);
+}
+button:hover{
+    background-color: var(--rosa);
+    color: var(--blanco);
+}
+#paging{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-top: 2rem;
+}
+.pages{
+    display: inline-block;
+    clear: both;
+    
+}
+.pages a{
+    float: left;   
+    color: var(--negro);
+    padding: 1rem;
+    text-decoration: none;
+    border-radius: 1rem;
+    transition: background-color .3s;
+}
+.pages a:hover:not(.active){
+    background-color: var(--rosa);
+    color: var(--blanco);
+}
 #footer{
     width: 100%;
-    padding: 4rem;
+    padding: 2rem;
     margin: auto;
     height: 200px;
     text-align: center;
     color: var(--negro);
 }
-
 .notion a{
     text-decoration: none;
     color: var(--negro);
