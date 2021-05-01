@@ -1,7 +1,6 @@
 import getData from '../utils/getData';
-
-const Home = async () => {
-  const products = await getData();
+ const Home = async (page = 0) => {
+  const products = await getData(null, page);
   const view = `
 		<div class="Products">
 			${products.data.map(product => `
@@ -18,3 +17,4 @@ const Home = async () => {
 };
 
 export default Home;
+

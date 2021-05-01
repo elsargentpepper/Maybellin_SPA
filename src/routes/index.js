@@ -26,6 +26,15 @@ const router = async () => {
     let route = await resolveRoutes(hash);
     let render = routes[route] ? routes[route] : Error404;
     content.innerHTML = await render();
+
+    const boton1 = document.getElementById('button.1')
+    const boton2 = document.getElementById('button.2')
+    boton1.onclick = async () => {
+        content.innerHTML = await Home(1);
+    }
+    boton2.onclick = async () => {
+        content.innerHTML = await Home(2);
+    }
 };
 
 export default router;
