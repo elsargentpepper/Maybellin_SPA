@@ -4,7 +4,7 @@ const Header = () => {
         <div class="Header-logo">
             <ul class="top_nav">
                 <li class="title"><a href="/">Maybelline New York |</a></li>
-                <li id="darkmode" style="float:right">darkmode</li>
+                <li id="darkmode">darkmode</li>
             </ul>
     </div>
     `;

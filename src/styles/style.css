@@ -52,8 +52,10 @@ header{
 }
 .top_nav{
     list-style-type: none;
+    display: flex;
+    justify-content: space-between;
     margin: 0;
-    padding: 0 5rem;
+    padding: 0 2rem;
     font-size: 2rem;
     overflow: hidden;
     position: fixed;
