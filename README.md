@@ -32,7 +32,9 @@ Single page application creada para consumir una API de productos de maquillaje,
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `string` | ${id} |
 
+## Deployment
 
+https://elsargentpepper.github.io/Maybellin_SPA/
   
 ## Demo
 
