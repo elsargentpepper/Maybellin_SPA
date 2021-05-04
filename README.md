@@ -1,7 +1,7 @@
 
 # Maybellin SPA
 
-Single page application creada para consumir una API de productos de maquillaje, con detalles individuales y conexión a páginas externas para conseguir el producto directamente con los distrubuidores principales.
+Single page application created to consume a constum API of makeup products, with single details of each product and links to the original product webpage of each product.
 
 ## Tech Stack
 
@@ -31,6 +31,12 @@ Single page application creada para consumir una API de productos de maquillaje,
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `string` | ${id} |
+
+## Authors
+
+- Backend developer [@Santiagonk](https://github.com/Santiagonk)
+- Frontend developer [@elsargentpepper](https://github.com/elsargentpepper)
+
 
 ## Deployment
 
