@@ -25,12 +25,12 @@ Single page application creada para consumir una API de productos de maquillaje,
 #### Get item
 
 ```http
-  GET /api/items/${id}${id}
+  GET https://salty-beyond-87863.herokuapp.com/api/v1/products/${id}
 ```
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
+| `id`      | `string` | ${id} |
 
 
   
