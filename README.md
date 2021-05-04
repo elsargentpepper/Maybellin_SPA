@@ -36,4 +36,4 @@ Single page application creada para consumir una API de productos de maquillaje,
   
 ## Demo
 
-![](maybellin_spa_demo.gif)
+![](maybellin_spa_demo.gif "webpage demo")
