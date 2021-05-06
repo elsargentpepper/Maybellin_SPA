@@ -1,5 +1,5 @@
 
-# Maybellin SPA
+# Maybellin SPA 
 
 Single page application created to consume a constum API of makeup products, with single details of each product and links to the original product webpage of each product.
 
@@ -39,6 +39,11 @@ Single page application created to consume a constum API of makeup products, wit
 
 
 ## Deployment
+[![Build Status](https://travis-ci.org/elsargentpepper/Maybellin_SPA.svg?branch=main)](https://travis-ci.org/elsargentpepper/Maybellin_SPA)
+
+Using:
+- Travis CI 
+- gitHubPages
 
 https://elsargentpepper.github.io/Maybellin_SPA/
   
