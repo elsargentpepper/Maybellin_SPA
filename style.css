@@ -76,13 +76,17 @@ li a{
 }
 .Products{
     width: 75%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     display: grid;
     grid-template-columns: auto auto auto auto auto;
 } 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
     .Products{
         grid-template-columns: auto auto; 
+    }
+    .hero-title{
+        display: none;
     }
 }
 .Product-item{
@@ -198,7 +202,6 @@ button:hover{
 .pages{
     display: inline-block;
     clear: both;
-    
 }
 .pages a{
     float: left;   
@@ -215,7 +218,6 @@ button:hover{
 #footer{
     width: 100%;
     padding: 2rem;
-    margin: auto;
     height: 200px;
     text-align: center;
     color: var(--negro);
