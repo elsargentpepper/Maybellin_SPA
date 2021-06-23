@@ -3,9 +3,15 @@
 
 Single page application created to consume a constum API of makeup products, with single details of each product and links to the original product webpage of each product.
 
+## Demo
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/elsargentpepper/Maybellin_SPA/main/demo_image.png" alt="webpage demo png">
+</p>
+
 ## Tech Stack
 
-**Client:** HTML, CSS y JavaScript vanilla
+**Client:** HTML, CSS, JavaScript vanilla, Tavis CI, Github Pages
 
 **Server:** Node, Webpack y Babbel
 
@@ -41,12 +47,4 @@ Single page application created to consume a constum API of makeup products, wit
 ## Deployment
 [![Build Status](https://travis-ci.org/elsargentpepper/Maybellin_SPA.svg?branch=main)](https://travis-ci.org/elsargentpepper/Maybellin_SPA)
 
-Using:
-- Travis CI 
-- gitHubPages
-
 https://elsargentpepper.github.io/Maybellin_SPA/
-  
-## Demo
-
-![](maybellin_spa_demo.gif "webpage demo")
